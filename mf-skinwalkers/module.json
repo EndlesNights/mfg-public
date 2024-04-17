@@ -1,10 +1,10 @@
 {
 	"id": "mf-skinwalkers",
 	"title": "Mammoth Factory Games - Curse of the Skinwalkers",
-	"description": "<p>Trapped and surrounded on all sides, the party must fight throughout the night against a pack of vicious lycanthropes – but in truth, it is the threat from within that might lead them to ruin. Haunted pasts, conflicting agendas, and long-nursed grudges combine to fill them with doubt and mistrust. Stay on your guard and place your trust carefully if you are to have any hope of surviving the <strong>Curse of the Skinwalkers.</strong></p><p>This module is a 5e adventure designed for a party of four to five <strong>level 5 characters</strong>, built to be plugged easily into an existing campaign or as a stand-alone adventure. The adventure is a self-contained story that combines classic horror with the mystery and paranoia of a cabin-fever tale. The characters must fight to survive against a pack of ravenous lycanthropes, while navigating the tense atmosphere that brews around them and the NPCs that populate the adventure. Haunted pasts, conflicting agendas, and long-nursed grudges combine to fill the characters with doubt and mistrust.</p>",
-	"version": "1.2.0",
+	"description": "<p>Trapped and surrounded on all sides, the party must fight throughout the night against a pack of vicious lycanthropes - but in truth, it is the threat from within that might lead them to ruin. Haunted pasts, conflicting agendas, and long-nursed grudges combine to fill them with doubt and mistrust. Stay on your guard and place your trust carefully if you are to have any hope of surviving the <strong>Curse of the Skinwalkers.</strong></p><p>This module is a 5e adventure designed for a party of four to five <strong>level 5 characters</strong>, built to be plugged easily into an existing campaign or as a stand-alone adventure. The adventure is a self-contained story that combines classic horror with the mystery and paranoia of a cabin-fever tale. The characters must fight to survive against a pack of ravenous lycanthropes, while navigating the tense atmosphere that brews around them and the NPCs that populate the adventure. Haunted pasts, conflicting agendas, and long-nursed grudges combine to fill the characters with doubt and mistrust.</p>",
+	"version": "1.2.1",
 	"manifest": "https://raw.githubusercontent.com/EndlesNights/mfg-public/main/mf-skinwalkers/module.json",
-	"download": "https://github.com/EndlesNights/mfg-public/releases/download/mf-skinwalkers-1.2.0/mf-skinwalkers.zip",
+	"download": "https://github.com/EndlesNights/mfg-public/releases/download/mf-skinwalkers-1.2.1/mf-skinwalkers.zip",
 	"authors":[
 		{
 			"name": "Mammoth Factory Games",
@@ -31,7 +31,12 @@
 	],
 	"relationships": {
 		"systems": [{
-		  "id": "dnd5e"
+			"id": "dnd5e",
+			"type": "system",
+			"compatibility": {
+				"minimum": "3.0",
+				"verified": "3.1.2"
+			}
 		}]
 	},
 	"esmodules": [
